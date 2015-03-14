@@ -1,0 +1,8 @@
+{
+  "name": "glowjs",
+  "version": "0.0.1",
+  "description": "Concatenated package of glowscript library.",
+  "dependencies": {
+    "glowscript": "BruceSherwood/glowscript#master"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "glowjs",
+  "version": "0.0.1",
+  "description": "A roll-up of the Glowscript javascript package.",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidbau/glowjs.git"
+  },
+  "author": "Pencil Code",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidbau/glowjs/issues"
+  },
+  "homepage": "https://github.com/davidbau/glowjs",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-bowercopy": "latest",
+    "grunt-contrib-concat": "latest"
+  }
+}
