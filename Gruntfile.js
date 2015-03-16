@@ -29,7 +29,8 @@ module.exports = function(grunt) {
           "glowscript/lib/glow/color.js",
           "glowscript/lib/glow/primitives.js",
           "glowscript/lib/glow/api_misc.js",
-          "glowscript/lib/glow/shaders.gen.js"
+          "glowscript/lib/glow/shaders.gen.js",
+          "src/setup.js"
         ],
         dest: 'dist/glow.js'
       },
@@ -46,4 +47,3 @@ module.exports = function(grunt) {
   grunt.registerTask('update', ['bowercopy', 'concat']);
 
 };
-

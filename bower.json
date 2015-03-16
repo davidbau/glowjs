@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "Concatenated package of glowscript library.",
   "dependencies": {
-    "glowscript": "BruceSherwood/glowscript#master"
+    "glowscript": "BruceSherwood/glowscript#master",
+    "jquery": "~2.1.3",
+    "jquery-ui": "~1.11.4"
   }
 }
