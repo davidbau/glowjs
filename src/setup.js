@@ -1,6 +1,6 @@
-var viewport = $('<div>');
-$('body').append(viewport);
-
+var viewport = $('<div>').
+  css({position: 'absolute', top: 0, left: 0}).
+  appendTo('body');
 
 window.__context = {
   glowscript_container: viewport
